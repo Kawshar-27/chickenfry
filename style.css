@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:476px){
+    body{
+        background-color: lightseagreen;
+    }
+    .nav-containar{
+        
+        background-color: rgb(13, 70, 67);
+    }
+    .nav-content{
+        padding: 4px;
+    }
+    .nav-content a{
+        color: white;
+        display: block;
+        padding: 8px;
+        margin: 4px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(23, 158, 151);
+        transition: 0.9s;
+        
+    }
+    .nav-content a:hover{
+        color: white;
+        background-color: rgb(54, 87, 85);
+    }
+    .sectionone-containar{
+        background-image: url(chickenfry.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100vw 100vh;
+        height: 100vh;
+    }
+    .sectionone-content{
+        text-align: center;
+        padding: 55px;
+    }
+    .sectionone-content h2{
+        background-color: pink;
+        padding: 3px;
+        width: 50%;
+        margin: auto;
+        font-size: 2vh;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+    .sectionone-content p{
+        color: rgb(45, 114, 24);
+        font-size: 3vh;
+        margin: 11px;
+    }
+    .sectionone-content a{
+        text-decoration: none;
+        background-color: rgb(22, 180, 114);
+        color: white;
+        padding: 5px;
+        border-radius: 8px;
+        font-size: 1.9vh;
+        transition: 0.5s;
+    }
+    .sectionone-content a:hover{
+        background-color: rgb(12, 80, 52);
+        color: white;
+        
+    }
+    .fotter-container{
+        background-color: rgb(13, 70, 67);
+
+    }
+    .fotter-container address{
+        text-align: center;
+        color: rgb(230, 225, 225);
+        font-size: 0.61rem;
+    }
+    .clearboth::after{
+        clear: both;
+        content: "";
+    }
+    .clearboth::before{
+        clear: both;
+        content: "";
+    }
+}
+@media screen and (min-width:477px){
+    body{
+        background-color: rgb(159, 216, 235);
+    }
+    .nav-containar{
+        
+        background-color: rgb(13, 70, 67);
+    }
+    .nav-content{
+        padding: 6px;
+        text-align: end;
+    }
+    .nav-content a{
+        color: white;
+        display: inline;
+        background-color: lightslategray;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 4px;
+        transition: 0.7s;
+        
+    }
+    .nav-content a:hover{
+        color: white;
+        background-color: rgb(54, 87, 85);
+    }
+    .sectionone-containar{
+        background-image: url(chickenfry.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: 100vw 100vh;
+        height: 100vh;
+    }
+    .sectionone-content{
+        text-align: center;
+        padding-top: 35vh;
+    }
+    .sectionone-content h2{
+       background-color: lightyellow;
+       border: 1px solid black;
+       border-radius: 4px;
+       padding: 9px;
+       width: 35%;
+       font-size: 2rem;
+       margin: auto;
+    }
+    .sectionone-content p{
+        color: rgb(163, 228, 192);
+        font-size: 1.9rem;
+        margin: 15px;
+    }
+    .sectionone-content a{
+        text-decoration: none;
+        background-color: rgb(43, 160, 72);
+        color: rgb(255, 255, 255);
+        padding: 11px;
+        font-size: 2rem;
+        border-radius: 8px;
+        transition: 0.7s;
+    }
+    .sectionone-content a:hover{
+        background-color: cornsilk;
+        color: black;
+    }
+    .fotter-container{
+        background-color: rgb(13, 70, 67);
+
+    }
+    .fotter-container address{
+        text-align: center;
+        color: rgb(230, 225, 225);
+        font-size: 0.71rem;
+    }
+    .clearboth::after{
+        clear: both;
+        content: "";
+    }
+    .clearboth::before{
+        clear: both;
+        content: "";
+    }
+}
+
